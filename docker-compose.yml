@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+  memcached1:
+    image: docker.io/bitnami/memcached:1
+    ports:
+      - '11201:11211'
+
+  memcached2:
+    image: docker.io/bitnami/memcached:1
+    ports:
+      - '11202:11211'
+
+  memcached3:
+    image: docker.io/bitnami/memcached:1
+    ports:
+      - '11203:11211'
