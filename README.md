@@ -1,5 +1,4 @@
-# Assignment 4: Distributed multi consistency Key-Value store
-Submission by Sai Manasa Ivaturi <sivatur@iu.edu>
+# Distributed multi consistency Key-Value store
 
 ### Contents
 - About Project
