@@ -18,7 +18,7 @@
 
 
 ### About Project
-In order to build this project from scratch, we have leveraged the Python inbuilt libraries and various modules inside this.
+In order to build this project from scratch, I have leveraged the Python inbuilt libraries and various modules inside this.
 
 In a brief, this project uses socketserver to enable peer-peer communication.
 
@@ -62,7 +62,7 @@ Explanation -
 
 - Tests for this project are placed in the **test_cases** folder.
 
-- As we may require additional libraries, these are placed in the **requirements.txt** file which can be used to install dependencies.
+- As I may require additional libraries, these are placed in the **requirements.txt** file which can be used to install dependencies.
 
 
 #### How to set up and run
@@ -136,13 +136,13 @@ Please note that the KV-CONTROLLER in the diagram below is a logical layer in th
 ![Class Diagram](classdiagram.jpeg)
 
 ### Design principles
-While writing code is an important aspect, we intend to make this application with 3 major principles in mind -
+While writing code is an important aspect, I intend to make this application with 3 major principles in mind -
 
 - Easy to debug
 - Fault-tolerance
 - Separation of Concerns
  
-Also, we intend to build an application that follows the 12-factor-app principles (as applicable) like - configurability, scalability, etc.
+Also, I intend to build an application that follows the 12-factor-app principles (as applicable) like - configurability, scalability, etc.
 
 ### Design details:
 
@@ -298,7 +298,7 @@ When a peer is up again and sends a heartbeat other peers marks its status as ac
 
 #### Testing
 
-For each kind of consistency model, we have tried to test the following -
+For each kind of consistency model, Is have tried to test the following -
 - `get` and `set` operations on same node
 - `get` and `set` operations on different nodes
 
